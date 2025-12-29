@@ -1,0 +1,12 @@
+.{
+    .name = .httpclientzig,
+    .version = "0.0.0",
+    .fingerprint = 0x9c17f9ed80f27013,
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
