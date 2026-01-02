@@ -1,3 +1,5 @@
+//! Inside layer or implementation for Server struct;
+//! functions that dont require instance.
 const std = @import("std");
 
 const ipType = enum {
@@ -40,7 +42,7 @@ const contentType = enum {
     }
 };
 
-pub fn createRequestWithPayload(
+pub fn createRequestWith(
     allocator: std.mem.Allocator,
     method: std.http.Method,
     endpoint: []const u8,
